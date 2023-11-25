@@ -1,0 +1,9 @@
+@media print {
+    body * {
+      visibility: hidden;
+    }
+    .row-pdf, .row-pdf * {
+      visibility: visible;
+    }
+  }
+  
